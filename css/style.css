@@ -1,0 +1,10 @@
+* {
+    scroll-behavior: smooth;
+}
+.fig-margin {
+    margin-top: 100px;
+}
+
+header {
+    z-index: 2;
+}

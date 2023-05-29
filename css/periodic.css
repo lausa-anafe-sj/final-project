@@ -1,0 +1,155 @@
+body {
+    margin-top: 50px;
+    background: rgb(83, 100, 108);
+    background: linear-gradient(90deg, rgb(125, 164, 183) 0%, rgb(183, 144, 144) 0%, rgb(156, 176, 186) 21%, rgb(96, 169, 169) 49%, rgb(85, 149, 213) 73%, rgb(246, 124, 124) 100%);
+}
+table {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(206, 206, 206);
+}
+
+.label{
+    color: rgb(158, 105, 105);
+    text-align: center;
+
+}
+
+td {
+    border-collapse: collapse;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: -2;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.hidden {
+    border-style: none;
+    display: hidden;
+    pointer-events: none;
+}
+
+/* .distance {
+    
+    position: relative;
+    top: 35px;
+} */
+
+.element-name {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.reactive-nonmetals {
+    background-image:linear-gradient(rgb(62, 100, 64),rgb(13, 58, 14));
+    border: 1px solid rgb(0, 122, 6);
+}
+
+.reactive-nonmetals:hover:not(.hidden){
+    transform: scale(1.4);
+    border: 2px outset rgb(0, 122, 6);
+}
+
+.alkali-metals {
+    background-image:linear-gradient(rgb(56, 53, 45),rgba(92, 73, 10, 0.733));
+    border: 1px solid rgba(133, 102, 0, 0.733);
+}
+
+.alkali-metals:hover:not(.hidden){
+    transform: scale(1.4);
+    border: 2px outset rgb(133, 102, 0, 0.733);
+}
+
+.alkaline-earth-metals {
+    background-image:linear-gradient(rgb(214, 186, 126),rgb(40, 36, 29));
+    border: 1px solid rgb(218, 149, 0);
+}
+
+.alkaline-earth-metals:hover:not(.hidden){
+    transform: scale(1.4);
+    border: 2px outset rgb(218, 149, 0);
+}
+
+.transition-metals{
+    background-image:linear-gradient(rgb(108, 39, 46),rgb(78, 158, 178));
+    border: 1px solid rgb(103, 40, 40);
+}
+
+.transition-metals:hover:not(.hidden){
+    transform: scale(1.4);
+    border: 2px outset rgb(182, 47, 47);
+}
+
+.metalloids {
+    background-image:linear-gradient(rgb(58, 133, 123),rgb(47, 84, 79));
+    border: 1px solid rgb(23, 148, 131);
+}
+
+.metalloids:hover:not(.hidden) {
+    transform: scale(1.4);
+    border: 2px outset rgb(23, 148, 131);
+}
+
+.post-transition-metals {
+    background-image:linear-gradient(rgb(0, 54, 102),rgb(44, 16, 107));
+    border: 1px solid rgb(90, 46, 194);
+}
+
+.post-transition-metals:hover:not(.hidden){
+    transform: scale(1.4);
+    border: 2px outset rgb(90, 46, 194);
+}
+
+.noble-gases {
+    background-image:linear-gradient(rgb(58, 33, 81),rgb(90, 58, 121));
+    border: 1px solid rgb(117, 55, 180);
+}
+
+.noble-gases:hover:not(.hidden){
+    transform: scale(1.4);
+    border: 2px outset rgb(117, 55, 180);
+}
+
+.unknown {
+    background-image:linear-gradient(rgb(34, 34, 34),rgb(59, 57, 57));
+    border: 1px solid rgb(122, 117, 117);
+}
+
+.unknown:hover:not(.hidden){
+    transform: scale(1.4);
+    border: 2px outset rgb(122, 117, 117);
+}
+
+.lanthanoids {
+    background-image:linear-gradient(rgb(64, 44, 23),rgb(97, 59, 21));
+    border: 1px solid rgb(136, 80, 24);
+}
+
+.lanthanoids:hover:not(.hidden){
+    transform: scale(1.4);
+    border: 2px outset rgb(136, 80, 24);
+}
+
+.actinoids {
+    background-image:linear-gradient(rgb(115, 46, 76),rgb(167, 41, 95));
+    border: 1px solid rgb(221, 48, 123);
+}
+.actinoids:hover:not(.hidden){
+    transform: scale(1.4);
+    border: 2px outset rgb(221, 48, 123);
+}
+
+.blue {
+    background-image:linear-gradient(rgb(0, 0, 170),rgb(43, 43, 153));
+    border: 1px solid rgb(0, 0, 0);
+}
